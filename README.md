@@ -1,64 +1,131 @@
 # iOS Engineering Playbook
 
-A production-focused playbook for building and scaling iOS teams.
+A production-grade operating model for building, scaling, and leading high-performance iOS teams.
 
-This repository captures **decision-making frameworks**, **engineering standards**, and **production practices**
-commonly used in high-performing iOS organizations.
-
-The emphasis is not “how to code”, but **how to build systems and teams that scale**.
+This repository documents how to design engineering systems — not just write features.
 
 ---
 
-## Who this is for
+# Why this repository exists
+
+Most repositories demonstrate *how to build features*.
+
+Few demonstrate how to:
+
+- Scale engineering teams
+- Govern architecture decisions
+- Prevent production incidents
+- Reduce technical entropy
+- Build resilient delivery systems
+
+This repository captures the **operating system behind strong iOS teams**.
+
+---
+
+# What this covers
+
+## Architecture Governance
+- Architecture Decision Records (ADR)
+- Modularization strategy
+- Concurrency model standards
+- Architecture review framework
+
+## Engineering Process
+- Definition of Done
+- Code review guidelines
+- Branching & governance model
+- Release & hotfix strategy
+
+## Production Excellence
+- Incident response playbook
+- Engineering metrics deep dive
+- Observability standards
+- Technical debt management framework
+
+## Career & Leadership
+- Staff Engineer Playbook
+- Mentorship framework
+- Team operating model
+- Growth ladder foundations
+
+---
+
+# Intended Audience
 
 - Senior iOS Engineers
-- Tech Leads / Staff / Principal Engineers
-- Engineering Managers who want strong iOS engineering standards
+- Staff / Principal Engineers
+- Engineering Managers
+- Founding engineers scaling teams
+- Teams transitioning from startup chaos to structured delivery
 
 ---
 
-## What’s inside
+# Philosophy
 
-- Architecture boundaries & dependency rules
-- Architecture Decision Records (ADRs)
-- Pull request review guidelines
-- Definition of Done
-- Release & hotfix strategy
-- Technical debt management
-- Mentorship framework
-- Scaling iOS teams
+Engineering maturity is not measured by:
 
----
+- Lines of code
+- Velocity
+- Feature count
 
-## How to use this playbook
+It is measured by:
 
-- If you are **starting a new iOS codebase**, begin with **architecture boundaries** + **ADR process**.
-- If you are **stabilizing a mature codebase**, start with **Definition of Done**, **Release strategy**, and **Debt management**.
-- If you are **scaling a team**, start with **PR guidelines** and **Mentorship framework**.
+- Decision clarity
+- Production stability
+- Observability
+- Recovery speed
+- Organizational resilience
 
 ---
 
-## Repository structure
+# Repository Structure
 
-docs/
-00-index.md
 architecture/
 adr/
+architecture-review-framework.md
+
 process/
-delivery/
-engineering/
-people/
-templates/
+release-strategy.md
+incident-response-playbook.md
+engineering-metrics-deep-dive.md
+technical-debt-management-framework.md
+
+career/
+mentorship-framework.md
+staff-engineer-playbook.md
+team-operating-model.md
 
 ---
 
-## Docs index
+# How to Use This
 
-Start here:
-- [00 — Index](docs/00-index.md)
+This is a living playbook.
+
+Adopt:
+- One framework at a time
+- Adapt to your team size
+- Document decisions via ADRs
+
+Do not copy blindly.
+Understand trade-offs.
 
 ---
 
-## License
+# Future Additions
 
-MIT
+- Example Architecture Review templates
+- Production postmortem examples
+- Scaling case studies
+- Governance checklist templates
+
+---
+
+# License
+
+MIT License
+
+Copyright (c) 2026 Gökhan Taymaz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
